@@ -65,7 +65,6 @@ while True:
     # 적정환율 - 현재환율 갭
     diff_exchange_rate = (proper_exchange_rate - current_exchange_rate) / current_exchange_rate * 100
 
-    print('???')
     # 현재 환율이 적정환율보다 적고 현재 환율과 적정환율 사이 차이가 제일 클 때 알림 전송
     if current_exchange_rate < proper_exchange_rate and diff_exchange_rate > max_diff:
         max_diff = diff_exchange_rate
