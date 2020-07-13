@@ -9,8 +9,9 @@ import traceback
 
 max_diff = 0
 loop_count = 0
-while True:
 
+send_message_by_line("Start!")
+while True:
     try:
         # 시작 시간
         start_time = time()
